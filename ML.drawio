@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NgbxnCm-SfonWBigMQxL-1" value="信息熵：-Σpi*log(pi) 反应样本标签的无序度&lt;div&gt;基尼系数：样本类别占比的平方和 反应样本的无序度&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;决策树的训练：&lt;/div&gt;&lt;div&gt;1）计算当前节点的基尼系数&lt;/div&gt;&lt;div&gt;2）遍历所有特征&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3）根据特征排序样本，以此提高阈值确定最佳的基尼系数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4）选择最佳的特征以及阈值进行划分&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5）划分后样本同样分成子集，往下传递生成子树&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=2;spacingTop=0;spacingLeft=4;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="30" width="640" height="270" as="geometry" />
+        <mxCell id="NgbxnCm-SfonWBigMQxL-1" value="信息熵：-Σpi*log(pi) 反应样本标签的无序度&lt;div&gt;基尼系数：样本类别占比的平方和 反应样本的无序度&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;决策树的训练：&lt;/div&gt;&lt;div&gt;1）计算当前节点的基尼系数&lt;/div&gt;&lt;div&gt;2）遍历所有特征&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3）根据特征排序样本，以此提高阈值确定最佳的基尼系数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4）选择最佳的特征以及阈值进行划分&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5）划分后样本同样分成子集，往下传递生成子树&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=2;spacingTop=0;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="10" width="640" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hFvpUyhM4HS9b8Prwm_J-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;transformer:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=2;spacingTop=0;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="300" width="640" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
