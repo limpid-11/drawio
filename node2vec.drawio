@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="zDOgWTLFwLM5gEDVrxWN">
-    <mxGraphModel>
+    <mxGraphModel dx="660" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E42auruJM5JTtXHaCHzA-1" value="&lt;div&gt;Node2Vec的核心是路径的采样策略（同质性/结构性）&lt;/div&gt;返回参数 p BFS&lt;div&gt;p越大，返回的概率越小&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;出入参数 q DFS&lt;/div&gt;&lt;/div&gt;&lt;div&gt;q越大，向外走的概率越小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;p=q=1的时候就是DeepWalk策略&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E42auruJM5JTtXHaCHzA-3" value="Word2Vec的过程" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E42auruJM5JTtXHaCHzA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="E42auruJM5JTtXHaCHzA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="690" width="470" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
