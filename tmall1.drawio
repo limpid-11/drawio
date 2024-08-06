@@ -94,8 +94,8 @@
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-9" value="用户商户交互特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#ffe6cc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="1160" y="-80" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-10" value="1.日志数量&lt;div&gt;2.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;" vertex="1" parent="1">
-          <mxGeometry x="780" y="-40" width="160" height="110" as="geometry" />
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-10" value="1.日志数量&lt;div&gt;2.浏览商户数量&lt;/div&gt;&lt;div&gt;3.&lt;span style=&quot;background-color: initial;&quot;&gt;浏览商品种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.浏览商品类别种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.浏览商品品牌种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.浏览总时长&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-40" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
