@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="nSqqlTotFycrfwxX73Ba">
-    <mxGraphModel dx="1827" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2005" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,7 +127,7 @@
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-24" value="Random Forest" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF66B3;" vertex="1" parent="1">
           <mxGeometry x="1060" y="209" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-27" value="1.年龄与性别的get_dummies操作one-hot编码？&lt;div&gt;（1）特征的数值大小可能引起误解，因此需要编码&lt;/div&gt;&lt;div&gt;（2）拓展特征空间，有利于机器学习捕捉类别信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-27" value="1.年龄与性别的get_dummies操作one-hot编码？&lt;div&gt;（1）特征的数值大小可能引起误解，因此需要编码&lt;/div&gt;&lt;div&gt;（2）拓展特征空间，有利于机器学习捕捉类别信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.减小内存占用是指？&lt;/div&gt;&lt;div&gt;通过np.iinfo(np.int8).max判断数值范围，小的话重新指定类型&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=4;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1340" y="-160" width="420" height="330" as="geometry" />
         </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-28" value="有关模型的问答" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
