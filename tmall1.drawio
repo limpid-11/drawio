@@ -97,7 +97,7 @@
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-12" value="初始方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="-190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-13" value="&lt;div&gt;3.使用随机森林/lightGBM进行回归预测&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=2;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-13" value="&lt;div&gt;3.使用XGBoost/Random Forest进行回归预测&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=2;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="780" y="180" width="540" height="210" as="geometry" />
         </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-14" value="1.日志数量&lt;div&gt;2.访问用户数量&lt;/div&gt;&lt;div&gt;3.访问商品种类&lt;/div&gt;&lt;div&gt;4.访问商品类别种数&lt;/div&gt;&lt;div&gt;5.访问商品品牌种数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.收藏操作数&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10.复购的标签数量&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#62CC82;" vertex="1" parent="1">
