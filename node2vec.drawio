@@ -1,50 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="zDOgWTLFwLM5gEDVrxWN">
-    <mxGraphModel dx="1786" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-10" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="225" y="260" width="390" height="400" as="geometry" />
+          <mxGeometry x="-105" y="-260" width="390" height="400" as="geometry" />
         </mxCell>
         <mxCell id="E42auruJM5JTtXHaCHzA-1" value="&lt;div&gt;Node2Vec的核心是路径的采样策略（&lt;b&gt;同质性/结构性&lt;/b&gt;）&lt;/div&gt;&lt;b&gt;返回参数 p&lt;/b&gt; BFS&lt;div&gt;p越大，返回的概率越小&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;出入参数 q&lt;/b&gt; DFS&lt;/div&gt;&lt;/div&gt;&lt;div&gt;q越大，向外走的概率越小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;p=q=1的时候就是&lt;b&gt;DeepWalk&lt;/b&gt;策略&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="260" width="470" height="140" as="geometry" />
+          <mxGeometry x="170" y="250" width="470" height="130" as="geometry" />
         </mxCell>
         <mxCell id="E42auruJM5JTtXHaCHzA-3" value="Word2Vec的概念&amp;nbsp;&lt;div&gt;1. &lt;b&gt;CBOW连续词袋模型&lt;/b&gt; 上下文→当前词&lt;/div&gt;&lt;div&gt;中间状态进行上下文多词语的求和，随后输入输出层&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. &lt;b&gt;Skip-gram跳字模型&lt;/b&gt; 当前词→上下文&lt;/div&gt;&lt;div&gt;中间态是一样的，输出层的时候计算所有词语的损失之和&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;输入是one-hot编码，输出是softmax后的词表概率&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;两类预测的优化方法（解决长词表）：Hierarchical Softmax 与 Negative Sampling&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Hierarchical Softmax&lt;/b&gt;：利用霍夫曼编码成树结构&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Negative Sampling&lt;/b&gt;：带权抽样负样本&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="410" width="470" height="230" as="geometry" />
+          <mxGeometry x="460" y="-280" width="470" height="230" as="geometry" />
         </mxCell>
         <mxCell id="E42auruJM5JTtXHaCHzA-4" value="Word2Vec的过程&lt;div&gt;（1）分词+统计词频+构造霍夫曼树&lt;/div&gt;&lt;div&gt;（2）&lt;b&gt;最大化对数似然概率&lt;/b&gt;，对两类模型都是&lt;/div&gt;&lt;div&gt;（3）输出层是霍夫曼树，词向量和中间向量是一起更新的，一般先更新中间向量&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="650" width="470" height="80" as="geometry" />
+          <mxGeometry x="460" y="-40" width="470" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E42auruJM5JTtXHaCHzA-5" value="Word2Vec的缺点&lt;div&gt;（1）未考虑句子的全局信息&lt;/div&gt;&lt;div&gt;（2）未考虑词语在句中顺序的信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="740" width="470" height="60" as="geometry" />
+          <mxGeometry x="460" y="50" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="250" y="325" width="220" height="80" as="geometry" />
+          <mxGeometry x="-80" y="-195" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="410" y="485" width="220" height="80" as="geometry" />
+          <mxGeometry x="80" y="-35" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-3" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="480" y="325" width="80" height="80" as="geometry" />
+          <mxGeometry x="150" y="-195" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-4" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="250" y="415" width="220" height="220" as="geometry" />
+          <mxGeometry x="-80" y="-105" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-5" value="item" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="330" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry y="-225" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-6" value="user" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="490" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="-225" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-7" value="user" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="560" y="350" width="60" height="30" as="geometry" />
+          <mxGeometry x="230" y="-170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-8" value="item" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="560" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="230" y="-10" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-9" value="用户与商品的共现矩阵" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="220" y="265" width="130" height="30" as="geometry" />
+          <mxGeometry x="-110" y="-255" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zc8_B8wsB4UqZe0BXlzT-11" target="Zc8_B8wsB4UqZe0BXlzT-12">
           <mxGeometry relative="1" as="geometry" />
