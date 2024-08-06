@@ -16,17 +16,17 @@
         <mxCell id="E42auruJM5JTtXHaCHzA-5" value="Word2Vec的缺点&lt;div&gt;（1）未考虑句子的全局信息&lt;/div&gt;&lt;div&gt;（2）未考虑词语在句中顺序的信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-300" y="740" width="470" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="370" width="220" height="80" as="geometry" />
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="440" y="530" width="220" height="80" as="geometry" />
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-3" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="510" y="370" width="80" height="80" as="geometry" />
+          <mxGeometry x="550" y="310" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-4" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="280" y="460" width="220" height="220" as="geometry" />
+          <mxGeometry x="320" y="400" width="220" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
