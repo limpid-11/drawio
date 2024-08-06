@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="nSqqlTotFycrfwxX73Ba">
-    <mxGraphModel dx="2094" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,20 +79,29 @@
         <mxCell id="eMkulTvPsyGz5oUcg8Yd-1" value="&lt;div&gt;get_dummies操作&lt;/div&gt;1）避免数值差异带来的偏差：某些机器学习算法（如线性回归）会对数值大小敏感。如果直接将分类变量用整数值进行编码，算法可能会错误地将这些数值大小视为有序关系，从而引入不正确的偏差。独热编码可以避免这种情况，因为它将每个类别都独立编码为二进制向量的一部分，而不是用单个数值表示。&lt;div&gt;2）扩展特征空间：独热编码将每个类别用一个二进制向量表示，其中只有一个维度为 1，其余都为 0。这样会导致特征空间的维度扩展，但在许多情况下这是有益的。对于某些机器学习算法，特征空间的扩展可以帮助模型更好地捕捉类别之间的关系。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-720" y="-160" width="470" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-4" value="2.提取特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;" vertex="1" parent="1">
-          <mxGeometry x="780" y="-120" width="540" height="30" as="geometry" />
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-4" value="2.提取特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=2;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-120" width="540" height="250" as="geometry" />
         </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-5" value="用户统计特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="780" y="-80" width="160" height="30" as="geometry" />
+          <mxGeometry x="790" y="-90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-8" value="商户统计特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="970" y="-80" width="160" height="30" as="geometry" />
+          <mxGeometry x="970" y="-90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-9" value="用户商户交互特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#ffe6cc;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="-80" width="160" height="30" as="geometry" />
+          <mxGeometry x="1150" y="-90" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-10" value="1.日志数量&lt;div&gt;2.浏览商户数量&lt;/div&gt;&lt;div&gt;3.&lt;span style=&quot;background-color: initial;&quot;&gt;浏览商品种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.浏览商品类别种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.浏览商品品牌种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.浏览总时长&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="780" y="-40" width="160" height="150" as="geometry" />
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-10" value="1.日志数量&lt;div&gt;2.浏览商户数量&lt;/div&gt;&lt;div&gt;3.&lt;span style=&quot;background-color: initial;&quot;&gt;浏览商品种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.浏览商品类别种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.浏览商品品牌种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.浏览总时长&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10.收藏操作数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-50" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-12" value="初始方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-13" value="&lt;div&gt;1.数据预处理（info和log融合便于提取特征，train和test融合用于最后的训练预测，&lt;span style=&quot;background-color: initial;&quot;&gt;处理缺失值&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-14" value="1.日志数量" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-50" width="160" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
