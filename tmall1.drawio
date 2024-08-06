@@ -79,9 +79,6 @@
         <mxCell id="eMkulTvPsyGz5oUcg8Yd-1" value="&lt;div&gt;get_dummies操作&lt;/div&gt;1）避免数值差异带来的偏差：某些机器学习算法（如线性回归）会对数值大小敏感。如果直接将分类变量用整数值进行编码，算法可能会错误地将这些数值大小视为有序关系，从而引入不正确的偏差。独热编码可以避免这种情况，因为它将每个类别都独立编码为二进制向量的一部分，而不是用单个数值表示。&lt;div&gt;2）扩展特征空间：独热编码将每个类别用一个二进制向量表示，其中只有一个维度为 1，其余都为 0。这样会导致特征空间的维度扩展，但在许多情况下这是有益的。对于某些机器学习算法，特征空间的扩展可以帮助模型更好地捕捉类别之间的关系。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-720" y="-160" width="470" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yMs0_Jfr-LNyBvqss9Xc-1" value="方案一：" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="-190" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="yMs0_Jfr-LNyBvqss9Xc-4" value="2.提取特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="780" y="-120" width="540" height="30" as="geometry" />
         </mxCell>
