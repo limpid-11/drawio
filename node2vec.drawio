@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="zDOgWTLFwLM5gEDVrxWN">
-    <mxGraphModel dx="1356" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,6 +45,21 @@
         </mxCell>
         <mxCell id="Zc8_B8wsB4UqZe0BXlzT-9" value="用户与商品的共现矩阵" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="220" y="265" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zc8_B8wsB4UqZe0BXlzT-11" target="Zc8_B8wsB4UqZe0BXlzT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-11" value="1.利用数据建图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zc8_B8wsB4UqZe0BXlzT-12" target="Zc8_B8wsB4UqZe0BXlzT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-12" value="2.游走采样" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zc8_B8wsB4UqZe0BXlzT-14" value="3.训练Word2vec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
