@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="36jbz5RrVT9zZQwFr1fX">
-    <mxGraphModel dx="1356" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="ATmWsD3FDVk_h2czRpAP-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="220" y="80" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ATmWsD3FDVk_h2czRpAP-8" value="&lt;div&gt;&lt;b&gt;概念&lt;/b&gt;&lt;/div&gt;&lt;div&gt;召回：候选集规模大、模型和特征简单、速度快，尽量保证用户感兴趣数据多召回。&lt;/div&gt;&lt;div&gt;排序：候选集不大，目标是保证排序的精准，一般使用复杂和模型和特征。&lt;/div&gt;&lt;div&gt;多路召回：既要用户感兴趣，又要时效热点，考虑分成多路召回&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;发展&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-480" width="500" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
