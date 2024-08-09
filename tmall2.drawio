@@ -31,7 +31,7 @@
         <mxCell id="ATmWsD3FDVk_h2czRpAP-11" value="&lt;b&gt;Word2Vec&lt;/b&gt;&lt;div&gt;1)Skip-gram&lt;/div&gt;&lt;div&gt;从一预测附近&lt;/div&gt;&lt;div&gt;2)CBOW&lt;/div&gt;&lt;div&gt;从附近预测一&lt;/div&gt;&lt;div&gt;有两个词矩阵，不共享权重，方便优化，用的时候取一或平均&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="-410" y="-770" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ATmWsD3FDVk_h2czRpAP-13" value="&lt;b&gt;FastText&lt;/b&gt;&lt;br&gt;&lt;div&gt;1)Sk&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="ATmWsD3FDVk_h2czRpAP-13" value="&lt;b&gt;FastText&lt;/b&gt;&lt;br&gt;&lt;div&gt;1）where = &amp;lt;wh, whe, her, ere, re&amp;gt; 分拆成连续词袋训练&lt;/div&gt;&lt;div&gt;2）优点：&lt;/div&gt;&lt;div&gt;对低频词生成的词向量效果好，n-gram可以和其它词共享&lt;br&gt;&lt;/div&gt;&lt;div&gt;词库外的词仍然有可能进行词向量生成&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="-410" y="-890" width="350" height="110" as="geometry" />
         </mxCell>
       </root>
