@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="36jbz5RrVT9zZQwFr1fX">
-    <mxGraphModel dx="1955" dy="2231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="ATmWsD3FDVk_h2czRpAP-14" value="&lt;b&gt;Bert 动态词向量方法&amp;nbsp;&lt;/b&gt;Encoder模型&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;预训练任务方面 Pre-training&lt;/font&gt;&lt;/div&gt;&lt;div&gt;1）MLM&lt;/div&gt;&lt;div&gt;输出是输入挖空的句子，&lt;span style=&quot;background-color: initial;&quot;&gt;预测[mask]，采用811混淆训练数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2）NSP&lt;/div&gt;&lt;div&gt;输出50%是输入的下一句句子，预测是否是下一句&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;下游任务方面 Fine-tuning&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#990000&quot;&gt;Encode后的T1,T2,T3...即为所需的句子embedding（Token）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-1210" width="340" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="H9xUbHL-VWyd2PXrm6Qb-2" value="&lt;b&gt;Rank 精排&lt;/b&gt;&lt;div&gt;1）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="H9xUbHL-VWyd2PXrm6Qb-2" value="&lt;b&gt;Rank 精排&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#9933ff&quot;&gt;传统机器学习推荐模型&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;1）FM 模型&lt;/div&gt;&lt;div&gt;解决稀疏特征数据的处理难点，引入了二阶特征组合&lt;/div&gt;&lt;div&gt;2）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="70" y="-920" width="630" height="580" as="geometry" />
         </mxCell>
       </root>
