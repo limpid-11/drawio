@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="36jbz5RrVT9zZQwFr1fX">
-    <mxGraphModel dx="1756" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1445" dy="1952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
         <mxCell id="H9xUbHL-VWyd2PXrm6Qb-2" value="&lt;b&gt;Rank 精排&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#9933ff&quot;&gt;传统机器学习推荐模型&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;1）FM 模型&lt;/div&gt;&lt;div&gt;解决稀疏特征数据的处理难点，引入了二阶特征组合&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）FFM模型&lt;/div&gt;&lt;div&gt;引入了域的概念，提高了模型的表达能力&lt;/div&gt;&lt;div&gt;但是增加了模型参数量与复杂度，增加了计算开销&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）GBDT+LR&amp;nbsp; （特征工程模型化）&lt;/div&gt;&lt;div&gt;利用GBDT筛选出特征组合，再输入LR进行预测，能够利用高阶关系&lt;/div&gt;&lt;div&gt;缺点为无法进行在线学习。需要提前进行GBDT的训练与特征组合提取&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0066cc&quot;&gt;Facebook的经验：低频更新embedding网络，高频更新上层网络结构&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4）MLR&amp;nbsp; （分组＋聚合）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#9933ff&quot;&gt;深度学习推荐模型&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1）WDL&amp;nbsp; （Wide &amp;amp; Deep Learning）&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Wide 用于记忆，Deep 用于泛化&lt;/div&gt;&lt;div&gt;两个结构的优化器不一样，Wide采样FTLR(处理稀疏性)，Deep采用AdaGrad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）DCN&amp;nbsp; &amp;nbsp; （Deep&amp;amp;Cross Network）&lt;/div&gt;&lt;div&gt;将WDL模型的Wide部分替换为Cross网络，加强了特征信息的融合&lt;/div&gt;&lt;div&gt;Cross网络使用层层传递的形式，和零层相乘再乘以参数向量，加上偏置与残差&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）DIN&amp;nbsp; &amp;nbsp; &amp;nbsp; （Deep Interest Network）&lt;/div&gt;&lt;div&gt;利用注意力机制动态编码用户向量&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="70" y="-920" width="630" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="H9xUbHL-VWyd2PXrm6Qb-4" value="&lt;b&gt;FastText&lt;/b&gt;&lt;br&gt;&lt;div&gt;1）where = &amp;lt;wh, whe, her, ere, re&amp;gt; 分拆成连续词袋训练&lt;/div&gt;&lt;div&gt;考虑了相近单词的语义相似&lt;/div&gt;&lt;div&gt;2）优点：&lt;/div&gt;&lt;div&gt;对低频词生成的词向量效果好，n-gram可以和其它词共享&lt;br&gt;&lt;/div&gt;&lt;div&gt;词库外的词仍然有可能进行词向量生成&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-330" width="410" height="110" as="geometry" />
+        <mxCell id="H9xUbHL-VWyd2PXrm6Qb-4" value="&lt;b&gt;应用深度网络模型DCN/DeepFM/BST进行复购预测，对比了模型的结构与效果&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-330" width="450" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
