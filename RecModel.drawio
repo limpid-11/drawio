@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="UGm5JvRGFB_UD_Ni14SP">
-    <mxGraphModel>
+    <mxGraphModel dx="792" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qLKPpFvlpWNobKLwXuhB-1" value="&lt;b&gt;FM 因子分解机&lt;/b&gt;&lt;br&gt;&lt;div&gt;1）考虑一阶特征权重和，二阶权重和（为特征分配隐向量，通过内积计算权重），最后逻辑回归得到结果&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FM 域因子分解机&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1）特征与不同特征交互时，应该有不同的表示，引入域的概念（一个特征有多个隐向量，针对不同域不同）&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="640" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
