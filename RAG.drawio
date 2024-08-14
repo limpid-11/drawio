@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="MafnV5kA-N-Bn0CcQXsm">
-    <mxGraphModel dx="1192" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1060" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,8 +19,26 @@
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-1" value="Reranker模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="O_Eo14AQ1HiPcfrSu76b-2" value="Qwen模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-2" value="Query" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-3" value="Query Expansion&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-4" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Expansion&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673A6;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="130" y="96" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-6" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;rewrite&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673A6;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="96" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-7" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;prompt&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673A6;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="96" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-8" value="Search" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-10" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;多路检索&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
