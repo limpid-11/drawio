@@ -64,7 +64,7 @@
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-18" value="&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;文件处理&lt;/font&gt;&lt;/div&gt;Source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-10" y="255" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="O_Eo14AQ1HiPcfrSu76b-19" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;问询生成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;spacing=-1;" vertex="1" parent="1">
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-19" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;向量数据库构建&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;spacing=-1;" vertex="1" parent="1">
           <mxGeometry x="110" y="170" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-20" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;文档加载&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;verticalAlign=middle;fontSize=11;fontFamily=Times New Roman;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-21" value="文档解析&lt;div&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Times New Roman&amp;quot;; text-align: left;&quot;&gt;Text&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Image&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=宋体;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="120" y="190" width="65" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="O_Eo14AQ1HiPcfrSu76b-23" value="语料分块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=宋体;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-23" value="语料分块&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=宋体;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="205" y="190" width="70" height="55" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-24" value="embedding" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontFamily=Times New Roman;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;fontSize=10;" vertex="1" parent="1">
