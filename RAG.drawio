@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="MafnV5kA-N-Bn0CcQXsm">
-    <mxGraphModel dx="954" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           <mxGeometry x="250" y="130" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-14" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;回答&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;生成&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;verticalAlign=middle;fontSize=11;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="390" y="70" width="40" height="230" as="geometry" />
+          <mxGeometry x="390" y="70" width="40" height="220" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;BGE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="260" y="154" width="50" height="20" as="geometry" />
@@ -62,13 +62,16 @@
           <mxGeometry x="-10" y="190" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-18" value="&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;文件处理&lt;/font&gt;&lt;/div&gt;Source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="250" width="110" height="50" as="geometry" />
+          <mxGeometry x="-10" y="250" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-19" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;问询生成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="110" y="190" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-20" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;问询生成&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="110" y="250" width="270" height="50" as="geometry" />
+          <mxGeometry x="110" y="250" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-21" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="211" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
