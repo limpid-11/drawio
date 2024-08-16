@@ -25,8 +25,8 @@
         <mxCell id="Bud15XnBcccRRGhkxyWZ-4" value="1.日志数量&lt;div&gt;&lt;div&gt;2.交互商品种类&lt;/div&gt;&lt;div&gt;3.交互商品类别种数&lt;/div&gt;&lt;div&gt;4.交互商品品牌种数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.收藏操作数&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.交互的时长&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="400" y="370" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Bud15XnBcccRRGhkxyWZ-10" value="*考虑到" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;align=left;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="520" height="40" as="geometry" />
+        <mxCell id="Bud15XnBcccRRGhkxyWZ-10" value="*考虑到双11数据占大多数，filter出相关的数据成为新表&lt;div&gt;*考虑到复购预测，用户行为有四种，filter出下单的数据成为新表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;align=left;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="520" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
