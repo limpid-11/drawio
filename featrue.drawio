@@ -1,29 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="gKLpgoY2S8u-M_VpdHLq">
-    <mxGraphModel dx="1386" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bud15XnBcccRRGhkxyWZ-5" value="方案改进：提取新的有效特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=2;spacingLeft=4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="30" y="210" width="540" height="270" as="geometry" />
+          <mxGeometry x="30" y="210" width="540" height="370" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-6" value="用户统计特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="160" height="30" as="geometry" />
+          <mxGeometry x="40" y="330" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-7" value="1.1-6 purchase&lt;div&gt;2.浏览商户数量&lt;/div&gt;&lt;div&gt;3.&lt;span style=&quot;background-color: initial;&quot;&gt;浏览商品种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.浏览商品类别种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.浏览商品品牌种数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.浏览总时长&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10.收藏操作数&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#63A7FF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="280" width="160" height="160" as="geometry" />
+          <mxGeometry x="40" y="370" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-1" value="商户统计特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#d5e8d4;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="240" width="160" height="30" as="geometry" />
+          <mxGeometry x="220" y="330" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-2" value="用户商户交互特征" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#ffe6cc;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="160" height="30" as="geometry" />
+          <mxGeometry x="400" y="330" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-3" value="1.日志数量&lt;div&gt;2.访问用户数量&lt;/div&gt;&lt;div&gt;3.访问商品种类&lt;/div&gt;&lt;div&gt;4.访问商品类别种数&lt;/div&gt;&lt;div&gt;5.访问商品品牌种数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.收藏操作数&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10.复购的标签数量&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#62CC82;" vertex="1" parent="1">
-          <mxGeometry x="220" y="280" width="160" height="160" as="geometry" />
+          <mxGeometry x="220" y="370" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Bud15XnBcccRRGhkxyWZ-4" value="1.日志数量&lt;div&gt;&lt;div&gt;2.交互商品种类&lt;/div&gt;&lt;div&gt;3.交互商品类别种数&lt;/div&gt;&lt;div&gt;4.交互商品品牌种数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.点击操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6.加购操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.购买操作数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8.收藏操作数&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9.交互的时长&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacing=2;spacingLeft=4;fillColor=#FFFFFF;strokeColor=#FFB366;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="160" height="160" as="geometry" />
+          <mxGeometry x="400" y="370" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
