@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="MafnV5kA-N-Bn0CcQXsm">
-    <mxGraphModel dx="1402" dy="834" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1060" dy="760" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,28 +88,28 @@
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-30" value="&lt;span style=&quot;font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;embedding&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;fontColor=#000099;fontStyle=1;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="230" y="175" width="50" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="O_Eo14AQ1HiPcfrSu76b-32" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;LLM Fine-tuning&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#328073;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="350" y="60" width="110" height="50" as="geometry" />
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-32" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;Fine-tuning&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#328073;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="350" y="60" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-33" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;Context Select&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#328073;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="350" y="115" width="110" height="75" as="geometry" />
+          <mxGeometry x="350" y="135" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-34" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Top-K&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="360" y="140" width="45" height="15" as="geometry" />
+          <mxGeometry x="360" y="160" width="45" height="15" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-35" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;MMR&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="410" y="140" width="40" height="15" as="geometry" />
+          <mxGeometry x="410" y="160" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-36" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Similarity&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="360" y="165" width="90" height="15" as="geometry" />
+          <mxGeometry x="360" y="180" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-37" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;Inference&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#328073;strokeColor=#000000;verticalAlign=top;fontSize=11;fontFamily=Times New Roman;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="350" y="195" width="110" height="80" as="geometry" />
+          <mxGeometry x="350" y="205" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-38" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Prompt engineering&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="360" y="225" width="90" height="15" as="geometry" />
+          <mxGeometry x="360" y="230" width="90" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="O_Eo14AQ1HiPcfrSu76b-39" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Genrate parameter&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="O_Eo14AQ1HiPcfrSu76b-39" value="Chain-of-Thought" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="360" y="252.5" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-40" value="&lt;font face=&quot;Times New Roman&quot;&gt;Faiss: &lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;建立向量索引，几种方式&amp;nbsp;&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;IndexFlatL2/&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IndexIVFFlat/IndexIVFPQ&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;平面索引/分区索引/乘积索引，通过牺牲精度换取检索性能&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" parent="1" vertex="1">
@@ -126,6 +126,12 @@
         </mxCell>
         <mxCell id="O_Eo14AQ1HiPcfrSu76b-43" value="&lt;font face=&quot;Times New Roman&quot;&gt;Jieba&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;分词原理&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="-85" y="480" width="405" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="z1lQjwvy5pSk2mGMMR6U-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Embedding finetuning&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="360" y="87.5" width="90" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="z1lQjwvy5pSk2mGMMR6U-2" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;LLM finetunning&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Times New Roman;fillColor=#1D2570;strokeColor=none;strokeWidth=1;fontColor=#FFFFFF;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="90" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
