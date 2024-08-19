@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="MafnV5kA-N-Bn0CcQXsm">
-    <mxGraphModel dx="1060" dy="760" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="760" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,12 @@
         </mxCell>
         <mxCell id="z1lQjwvy5pSk2mGMMR6U-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;MMR&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;最大边缘相关性算法：用于提高重排算法&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;TopK&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;推荐列表的多样性&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;原理为加权计算推荐得分与相似度得分，根据加权分逐个选入&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: initial;&quot;&gt;TopK&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
           <mxGeometry x="-85" y="480" width="405" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="z1lQjwvy5pSk2mGMMR6U-5" value="&lt;font&gt;具体实现使用&lt;font face=&quot;Times New Roman&quot;&gt;PYPDF&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;，具体做法有点粗糙，直接将一页内容读成一个字符串，并认为是一条可以用以检索的数据。&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="245" width="305" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="z1lQjwvy5pSk2mGMMR6U-6" value="索引构建，首先" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="190" width="305" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
