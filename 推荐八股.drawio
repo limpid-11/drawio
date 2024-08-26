@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mPcpz4siuyIrg-kaVJwC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="mPcpz4siuyIrg-kaVJwC-1" value="协同过滤&lt;div&gt;1）基于用户的&lt;/div&gt;&lt;div&gt;2）基于物品的&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="50" y="20" width="270" height="190" as="geometry" />
         </mxCell>
       </root>
