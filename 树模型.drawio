@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.8">
   <diagram name="第 1 页" id="6LExswBGzEWrd6V2PaQY">
-    <mxGraphModel dx="792" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1386" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NIyaHajtZH1n5Uw6bmwi-1" value="CART&lt;div&gt;（1）信息熵&lt;/div&gt;&lt;div&gt;（2）信息增益&lt;/div&gt;&lt;div&gt;（3）信息增益比&lt;/div&gt;&lt;div&gt;（4）基尼系数&lt;/div&gt;&lt;div&gt;（5）树的生成与修剪&lt;/div&gt;&lt;div&gt;（6）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
-          <mxGeometry x="20" y="230" width="340" height="120" as="geometry" />
+        <mxCell id="NIyaHajtZH1n5Uw6bmwi-1" value="CART&lt;div&gt;（1）信息熵&lt;/div&gt;&lt;div&gt;（2）信息增益&lt;/div&gt;&lt;div&gt;（3）信息增益比&lt;/div&gt;&lt;div&gt;（4）基尼系数&lt;/div&gt;&lt;div&gt;（5）树的生成与修剪&lt;/div&gt;&lt;div&gt;（6）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="20" y="230" width="340" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
