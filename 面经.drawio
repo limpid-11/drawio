@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JpPuyHW-M_ndnzIqGpJT-1" value="1.如何验证embedding的有效性&lt;div&gt;2.AUC在什么场景下表现不好&lt;/div&gt;&lt;div&gt;3.pre 和 after normalization&lt;/div&gt;&lt;div&gt;4.BN和LN，推理和测试时候有啥不一样&lt;/div&gt;&lt;div&gt;5.前馈层结构&lt;/div&gt;&lt;div&gt;6.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="JpPuyHW-M_ndnzIqGpJT-1" value="1.如何验证embedding的有效性&lt;div&gt;2.AUC在什么场景下表现不好&lt;/div&gt;&lt;div&gt;3.pre 和 after normalization&lt;/div&gt;&lt;div&gt;4.BN和LN，推理和测试时候有啥不一样&lt;/div&gt;&lt;div&gt;5.前馈层结构&lt;/div&gt;&lt;div&gt;6.位置编码&lt;/div&gt;&lt;div&gt;7.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="60" y="190" width="410" height="210" as="geometry" />
         </mxCell>
       </root>
