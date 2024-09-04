@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JpPuyHW-M_ndnzIqGpJT-1" value="1.如何验证embedding的有效性&lt;div&gt;2.AUC在什么场景下表现不好&lt;/div&gt;&lt;div&gt;3.pre 和 after normalization&lt;/div&gt;&lt;div&gt;4.BN和LN，推理和测试时候有啥不一样&lt;/div&gt;&lt;div&gt;5.前馈层结构&lt;/div&gt;&lt;div&gt;6.位置编码&lt;/div&gt;&lt;div&gt;7.什么分布会导致：精确率低，AUC高的场景，低召回率&lt;/div&gt;&lt;div&gt;8.XGBoost特征的缺失值处理&lt;/div&gt;&lt;div&gt;9.深度网络&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="JpPuyHW-M_ndnzIqGpJT-1" value="1.如何验证embedding的有效性&lt;div&gt;2.AUC在什么场景下表现不好&lt;/div&gt;&lt;div&gt;3.pre 和 after normalization&lt;/div&gt;&lt;div&gt;4.BN和LN，推理和测试时候有啥不一样&lt;/div&gt;&lt;div&gt;5.前馈层结构&lt;/div&gt;&lt;div&gt;6.位置编码&lt;/div&gt;&lt;div&gt;7.什么分布会导致：精确率低，AUC高的场景，低召回率&lt;/div&gt;&lt;div&gt;8.XGBoost特征的缺失值处理&lt;/div&gt;&lt;div&gt;9.深度网络&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;题目：三数之和&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" vertex="1" parent="1">
           <mxGeometry x="10" y="120" width="410" height="210" as="geometry" />
         </mxCell>
       </root>
