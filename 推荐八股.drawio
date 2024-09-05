@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b7tHHqhXRkNEzGU3USus-7" value="图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-7" value="图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A6A6A6;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="270" y="540" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b7tHHqhXRkNEzGU3USus-3" value="图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-3" value="图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="170" y="540" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mPcpz4siuyIrg-kaVJwC-1" value="协同过滤&lt;div&gt;1）基于用户的&lt;/div&gt;&lt;div&gt;2）基于物品的&lt;/div&gt;&lt;div&gt;实现方法&lt;/div&gt;&lt;div&gt;利用用户item的共现矩阵学习用户和item的表示&lt;/div&gt;&lt;div&gt;内积可以表示成相似度&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;持久化操作&lt;/div&gt;&lt;div&gt;cache()函数与persist()函数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;正则化调整输入数据的分布，使网络收敛更稳定&lt;/div&gt;&lt;div&gt;BN指对特征进行归一化&lt;/div&gt;&lt;div&gt;LN指对样本进行归一化&lt;/div&gt;&lt;div&gt;图像中多用BN，NLP中多用LN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
@@ -31,23 +31,32 @@
         <mxCell id="b7tHHqhXRkNEzGU3USus-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7tHHqhXRkNEzGU3USus-5" target="b7tHHqhXRkNEzGU3USus-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b7tHHqhXRkNEzGU3USus-5" value="图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-5" value="图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="180" y="550" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b7tHHqhXRkNEzGU3USus-6" value="特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-6" value="特征" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="190" y="560" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b7tHHqhXRkNEzGU3USus-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b7tHHqhXRkNEzGU3USus-8" target="b7tHHqhXRkNEzGU3USus-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b7tHHqhXRkNEzGU3USus-8" value="图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-8" value="图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B4C1D1;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="550" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b7tHHqhXRkNEzGU3USus-9" value="特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7tHHqhXRkNEzGU3USus-9" value="特征" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C5D6C4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="290" y="560" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b7tHHqhXRkNEzGU3USus-13" value="检测结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="545" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b7tHHqhXRkNEzGU3USus-16" value="特征提取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000CC;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b7tHHqhXRkNEzGU3USus-17" value="特征融合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000CC;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b7tHHqhXRkNEzGU3USus-18" value="检测层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000CC;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
