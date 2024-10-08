@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="第 1 页" id="AiaPfwQ8ZB_q4ICawF4f">
     <mxGraphModel dx="1954" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-530" y="30" width="570" height="530" as="geometry" />
         </mxCell>
         <mxCell id="HHJjZqQia4V-BNCQ1dfP-2" value="&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;b&gt;排序&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;多目标预估（点击率、收藏率、评论率等）&lt;/div&gt;&lt;div&gt;面对样本不均衡的问题，可以对负样本降采样&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00cc00&quot;&gt;项目中如何处理样本不均衡的问题：对正样本重采样&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00cc00&quot;&gt;由于调整了正样本的比率，这样得到的预估值会偏大，需要进行预估值的校准&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#0000cc&quot;&gt;MMOE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;模型包含n+1个神经网络，其中有n个专家网络，还有一个网络输出专家网络的权重&lt;/div&gt;&lt;div&gt;最后专家网络的加权和即为最后的输出&lt;/div&gt;&lt;div&gt;容易出现极化问题（只有一个专家起作用）&lt;/div&gt;&lt;div&gt;解决方法是对输出权重的Softmax添加dropout，随机丢弃专家，促使模型结合多专家意见&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=2;" parent="1" vertex="1">
-          <mxGeometry x="60" y="30" width="580" height="530" as="geometry" />
+          <mxGeometry x="50" y="30" width="580" height="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
