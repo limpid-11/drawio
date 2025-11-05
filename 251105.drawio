@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GZDxvnRQM8wUo6PulalR-1" value="SearchTemplateRetr::DoRetr" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=19;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="150" width="300" height="40" as="geometry" />
+          <mxGeometry x="-150" y="180" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GZDxvnRQM8wUo6PulalR-2" value="DoRetr" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=19;fillColor=#dae8fc;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="270" height="40" as="geometry" />
+          <mxGeometry x="210" y="180" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
