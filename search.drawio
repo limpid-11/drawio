@@ -1,41 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="xlDNMerSlhS8z0zMa8rl">
-    <mxGraphModel dx="696" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="839" dy="851" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-3" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-2" value="">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-3" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" target="lfL-LizJ0JQVi3O7qFg9-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" value="api_newproduct-kuaiying-server" vertex="1">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontFamily=Helvetica;" value="api_newproduct-kuaiying-server" vertex="1">
           <mxGeometry height="40" width="200" x="140" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-7" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-6" value="">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-7" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" target="lfL-LizJ0JQVi3O7qFg9-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-12" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-11" value="">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-12" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" target="lfL-LizJ0JQVi3O7qFg9-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" value="search_router&lt;br&gt;(复用feed服务，微调调用请求)&amp;nbsp;" vertex="1">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontFamily=Helvetica;" value="search_router&lt;br&gt;(复用feed服务，微调调用请求)&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="200" x="140" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-9" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-8" value="">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-9" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" target="lfL-LizJ0JQVi3O7qFg9-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" value="product-ky-reco-search-leaf-server&lt;br&gt;（仅作中间层构造请求，传递结果）" vertex="1">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;fontFamily=Helvetica;" value="product-ky-reco-search-leaf-server&lt;br&gt;（仅作中间层构造请求，传递结果）" vertex="1">
           <mxGeometry height="40" width="200" x="360" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#333333;" value="product-ky-reco-search-rpc-service&lt;br&gt;(不调用es，仅返回构造的es请求)" vertex="1">
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#333333;fontFamily=Helvetica;" value="product-ky-reco-search-rpc-service&lt;br&gt;(不调用es，仅返回构造的es请求)" vertex="1">
           <mxGeometry height="40" width="220" x="580" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" value="search_leaf&lt;br&gt;(重写search flow)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;召回+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;排序&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="200" x="140" y="70" as="geometry" />
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="search_leaf&lt;br&gt;(重写search flow)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;召回+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;排序&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="140" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;leaf show 样本拼接&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="20" width="200" x="360" y="70" as="geometry" />
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;leaf show 样本拼接&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="360" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="lfL-LizJ0JQVi3O7qFg9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;" value="es 召回" vertex="1">
-          <mxGeometry height="20" width="200" x="360" y="110" as="geometry" />
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="es 召回" vertex="1">
+          <mxGeometry height="30" width="200" x="360" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="kai 模型离线训练" vertex="1">
+          <mxGeometry height="30" width="220" x="580" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="kai serving 模型在线推理" vertex="1">
+          <mxGeometry height="30" width="220" x="580" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
