@@ -43,6 +43,21 @@
         <mxCell id="lfL-LizJ0JQVi3O7qFg9-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontFamily=Helvetica;" value="kai serving 模型在线推理" vertex="1">
           <mxGeometry height="30" width="220" x="580" y="110" as="geometry" />
         </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-21" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontFamily=Helvetica;" value="画像处理" vertex="1">
+          <mxGeometry height="34" width="136" x="161" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-23" edge="1" parent="1" source="lfL-LizJ0JQVi3O7qFg9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lfL-LizJ0JQVi3O7qFg9-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontFamily=Helvetica;" value="召回环节" vertex="1">
+          <mxGeometry height="34" width="136" x="340" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="lfL-LizJ0JQVi3O7qFg9-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontFamily=Helvetica;" value="排序环节" vertex="1">
+          <mxGeometry height="34" width="136" x="519" y="198" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
