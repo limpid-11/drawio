@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="p_7yJ0gpmxOFk0NIgR4k">
+    <mxGraphModel dx="1222" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DgcYODdFq4bqwVG-PT96-7" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DgcYODdFq4bqwVG-PT96-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" value="query" vertex="1">
+          <mxGeometry height="30" width="170" x="100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-8" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DgcYODdFq4bqwVG-PT96-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="template title" vertex="1">
+          <mxGeometry height="30" width="180" x="310" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-9" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DgcYODdFq4bqwVG-PT96-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="template counter" vertex="1">
+          <mxGeometry height="30" width="210" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" value="Query Encoder&lt;div&gt;&lt;br&gt;&lt;div&gt;Transformer + Dense&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Transformer(512d) → Pooling(CLS) → Dense(512→128, Tanh) → L2Norm → 128d&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="170" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="Doc&amp;nbsp;Encoder&lt;div&gt;&lt;br&gt;&lt;div&gt;Transformer + Dense&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Transformer(512d) → Pooling(CLS) → Dense(512→128, Tanh) → L2Norm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="180" x="310" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-13" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="DgcYODdFq4bqwVG-PT96-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="DocFeatureTower&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;MLP&lt;/span&gt;&amp;nbsp;+ Embedding&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Embedding(16d) + 连续特征(7d) → MLP(23→256→128) → L2Norm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="210" x="520" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" value="门控残差融合 → L2Norm → 128d" vertex="1">
+          <mxGeometry height="30" width="420" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-12" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.212;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="DgcYODdFq4bqwVG-PT96-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" value="Gate（Linear 256→1 + Sigmoid）" vertex="1">
+          <mxGeometry height="30" width="630" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-17" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.133;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="DgcYODdFq4bqwVG-PT96-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgcYODdFq4bqwVG-PT96-18" edge="1" parent="1" source="DgcYODdFq4bqwVG-PT96-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.665;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="DgcYODdFq4bqwVG-PT96-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
