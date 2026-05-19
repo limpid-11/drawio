@@ -184,6 +184,12 @@
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="*相关性分数来自于微调后的相关性模型" vertex="1">
           <mxGeometry height="16" width="171" x="290" y="860" as="geometry" />
         </mxCell>
+        <mxCell id="GK8AZQt4zVpxBLM8WsAE-31" edge="1" parent="1" source="GK8AZQt4zVpxBLM8WsAE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="GK8AZQt4zVpxBLM8WsAE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GK8AZQt4zVpxBLM8WsAE-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="本次新增的模型预估分数（个性化）" vertex="1">
+          <mxGeometry height="15" width="171" x="529" y="1052" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
