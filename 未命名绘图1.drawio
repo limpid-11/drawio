@@ -99,7 +99,7 @@
           <mxGeometry height="31" width="156" x="652" y="492" as="geometry" />
         </mxCell>
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Query" vertex="1">
-          <mxGeometry height="30" width="55" x="170" y="772" as="geometry" />
+          <mxGeometry height="30" width="55" x="156" y="795" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
