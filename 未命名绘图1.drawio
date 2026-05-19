@@ -135,7 +135,7 @@
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费300 付费100" vertex="1">
           <mxGeometry height="16" width="88" x="160.5" y="891" as="geometry" />
         </mxCell>
-        <mxCell id="GK8AZQt4zVpxBLM8WsAE-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费 5*13 付费 5*7" vertex="1">
+        <mxCell id="GK8AZQt4zVpxBLM8WsAE-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费 200 付费 50" vertex="1">
           <mxGeometry height="16" width="88" x="160.5" y="820" as="geometry" />
         </mxCell>
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="根据&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;b&gt;相关性分数&lt;/b&gt;&lt;/font&gt;+&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;后验质量分&lt;/b&gt;&lt;/font&gt;排序" vertex="1">
@@ -175,7 +175,7 @@
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费300 付费100" vertex="1">
           <mxGeometry height="16" width="88" x="160.5" y="1072" as="geometry" />
         </mxCell>
-        <mxCell id="GK8AZQt4zVpxBLM8WsAE-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费 5*13 付费 5*7" vertex="1">
+        <mxCell id="GK8AZQt4zVpxBLM8WsAE-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="免费 200 付费 50" vertex="1">
           <mxGeometry height="16" width="88" x="160.5" y="1001" as="geometry" />
         </mxCell>
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="根据&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;&lt;b&gt;相关性分数&lt;/b&gt;&lt;/font&gt;+&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 153, 0), rgb(255, 106, 193));&quot;&gt;后验质量分&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+&lt;/font&gt;&lt;b style=&quot;color: light-dark(rgb(255, 51, 153), rgb(255, 106, 193));&quot;&gt;模型预估分数&lt;/b&gt;&lt;/font&gt;排序" vertex="1">
@@ -187,7 +187,7 @@
         <mxCell id="GK8AZQt4zVpxBLM8WsAE-31" edge="1" parent="1" source="GK8AZQt4zVpxBLM8WsAE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="GK8AZQt4zVpxBLM8WsAE-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GK8AZQt4zVpxBLM8WsAE-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;" value="本次新增的模型预估分数（个性化）" vertex="1">
+        <mxCell id="GK8AZQt4zVpxBLM8WsAE-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=宋体;fontSize=9;fontStyle=1" value="本次新增的模型预估分数（个性化）" vertex="1">
           <mxGeometry height="15" width="171" x="529" y="1052" as="geometry" />
         </mxCell>
       </root>
